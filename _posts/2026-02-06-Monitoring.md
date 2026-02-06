@@ -76,4 +76,5 @@ Once the session was established, the user privileges were verified:
 + Command: `getuid`
 + Output: Server username: `root` 
 
+
 The exploit provided direct root access without requiring further privilege escalation steps.
