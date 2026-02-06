@@ -5,7 +5,7 @@ categories: ["2026", OSCP, PG Play]
 tags: [ctf, vulnhub, walkthrough]
 description: "In this lab, we exploit an authenticated remote code execution vulnerability in the Nagios XI monitoring software. The application is misconfigured to run with root privileges, allowing us to escalate immediately to root once the vulnerability is exploited."
 image:
-  path: /assets/img/monitoring/banner.png
+  path: /assets/img/Monitoring/banner.png
 ---
 
 
