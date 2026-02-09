@@ -5,7 +5,7 @@ categories: ["2026", OSCP, PG Play]
 tags: [ctf, vulnhub, walkthrough]
 description: "In this lab, access is gained by exploiting a file upload vulnerability in a web shell, leading to remote code execution. Privilege escalation is performed through password guessing and abusing misconfigured sudo permissions on the mysql binary to execute commands as root."
 image:
-  path: /assets/img/FunBoxEasyEnum/banner.png
+  path: /assets/img/FunboxEasyEnum/banner.png
 ---
 
 
