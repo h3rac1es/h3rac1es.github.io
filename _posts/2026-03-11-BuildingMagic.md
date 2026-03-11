@@ -1,6 +1,6 @@
 ---
 title: "BuildingMagic (Easy) — Walkthrough"
-date: 2026-03-010 11:20:00 +0100
+date: 2026-03-10 11:20:00 +0100
 categories: ["2026", OSCP]
 tags: [ctf, HS, walkthrough]
 description: " As a penetration tester on the Hack Smarter Red Team, your objective is to achieve a full compromise of the Active Directory environment."
