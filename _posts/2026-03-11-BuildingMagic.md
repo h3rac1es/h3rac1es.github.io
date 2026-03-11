@@ -1,5 +1,5 @@
 ---
-title: "BuildingMagic (Easy) — Walkthrough"
+title: "BuildingMagic Hacksmarter — Walkthrough"
 date: 2026-03-10 11:20:00 +0100
 categories: ["2026", OSCP]
 tags: [ctf, HS, walkthrough]
