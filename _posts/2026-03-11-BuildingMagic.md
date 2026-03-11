@@ -8,7 +8,6 @@ image:
   path: /assets/img/BuildingMagic/banner.png
 ---
 
-
 # AD Challenge Lab: BuildingMagic (Easy) — Walkthrough
 
 **Platform:** Hack Smarter  
