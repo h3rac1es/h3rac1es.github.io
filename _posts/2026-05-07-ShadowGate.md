@@ -107,6 +107,7 @@ amoss
 
 ## 🔐 Initial Access
 
+
 ### AS-REP Roasting
 
 ![img](../assets/img/ShadowGate/3.png)
