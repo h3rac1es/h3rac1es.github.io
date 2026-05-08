@@ -1,9 +1,9 @@
 ---
-title: "Samurai Hacksmarter — Walkthrough"
-date: 2026-04-15 11:20:00 +0100
+title: "ShadowGate Hacksmarter — Walkthrough"
+date: 2026-05-07 11:20:00 +0100
 categories: ["2026", OSCP]
 tags: [ctf, HS, walkthrough]
-description: "You are a member of the Hack Smarter Red Team. During a phishing engagement, you were able to retrieve credentials for the client's Active Directory environment. Use these credentials to enumerate the environment, elevate your privileges, and demonstrate impact for the client."
+description: "ShadowGate recently completed a corporate acquisition that significantly expanded its internal network, user base, and application footprint. Several business-critical systems were migrated and consolidated under tight operational deadlines to minimize downtime and maintain service continuity."
 image:
   path: /assets/img/ShadowGate/banner.png
 ---
