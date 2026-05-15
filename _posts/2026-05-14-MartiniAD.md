@@ -5,7 +5,7 @@ categories: ["2026", OSCP]
 tags: [ctf, HS, walkthrough]
 description: "An adult beverage company Martini Bars recently had a corporate breach and the compliance and risk team dictates they perform a penetration test at one of their branch offices. The Hack Smarter team has been authorized to perform an internal black box pentest."
 image:
-  path: /assets/img/ShadowGate/banner.png
+  path: /assets/img/MartiniAD/banner.png
 ---
 
 ## Attack Chain Summary
