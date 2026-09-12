@@ -48,7 +48,6 @@ Two accounts came back valid:
 
 So the target had two real users: `maria` and `kali`.
 
-
 ![image](../assets/img/Aftermath/2.png)
 
 
