@@ -33,7 +33,7 @@ Nothing exotic here — SSH and a mail stack behind a web server. With a leaked 
 
 Postfix on port 25 supports the `VRFY` command, which is a reliable way to confirm valid usernames without touching authentication:
 
->https://hackviser.com/tactics/pentesting/services/smtp#using-rcpt-to-command
+<https://hackviser.com/tactics/pentesting/services/smtp#using-rcpt-to-command>
 
 ```bash
 smtp-user-enum -M VRFY -U names.txt -t 10.1.57.35
@@ -71,7 +71,7 @@ With confirmed usernames and a live webmail login page, the next logical move wa
 
 Hydra and Caido both failed to play nicely with Roundcube's login flow (CSRF token handling likely got in the way), so I went looking for a purpose-built tool and landed on **cubeSpraying**:
 
-> https://github.com/robotshell/cubeSpraying
+<https://github.com/robotshell/cubeSpraying>
 
 ![image](../assets/img/Aftermath/5.png)
 ![image](../assets/img/Aftermath/6.png)
@@ -109,7 +109,7 @@ Roundcube Webmail 1.5.9
 
 Roundcube 1.5.9 is affected by **CVE-2025-49113**, a post-authentication remote code execution bug caused by insecure deserialization of an uploaded file name. A public PoC was readily available:
 
-> https://github.com/hakaioffsec/CVE-2025-49113-exploit
+<https://github.com/hakaioffsec/CVE-2025-49113-exploit>
 
 
 ## Exploitation
