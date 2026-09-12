@@ -8,12 +8,9 @@ image:
   path: /assets/img/Aftermath/banner.png
 ---
 
-
 # Summary
 
 Nmap revealed SSH, SMTP, and a web server running Roundcube Webmail. SMTP user enumeration confirmed two valid accounts, one of which had a working password from the leaked credential list. That got me into Roundcube 1.5.9, which is vulnerable to **CVE-2025-49113** (post-auth RCE via insecure deserialization). Popping a shell as `www-data` led straight to a sudo misconfiguration on `apt-get`, and root followed shortly after via GTFOBins.
-
-
 
 
 ## Recon
